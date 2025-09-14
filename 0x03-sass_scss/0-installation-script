@@ -1,0 +1,13 @@
+SASS Installation Steps
+This script outlines the steps taken to install Sass:
+
+Install Node Version Manager (NVM):
+Open your terminal and run the following command to download and install NVM:
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+Reopen Terminal:
+Close and then reopen your terminal to ensure NVM is properly initialized.
+
+Install Sass:
+With Node.js installed, use the Node Package Manager (npm) to install Sass:
+npm install sass@3.7.4

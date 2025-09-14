@@ -1,0 +1,14 @@
+// This Sass file uses a mixin to apply left and right margins to elements.
+
+@mixin margin-left-right($value) {
+margin-left: $value;
+margin-right: $value;
+}
+
+body {
+@include margin-left-right(10px);
+}
+
+div {
+@include margin-left-right(15px);
+}
